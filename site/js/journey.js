@@ -1,6 +1,6 @@
 (() => {
   "use strict";
-  const C = window.SHIVAYA || {};
+  const C = window.CALLA || {};
   const $ = (s, r = document) => r.querySelector(s);
   const $$ = (s, r = document) => [...r.querySelectorAll(s)];
   const clamp = (v, a = 0, b = 1) => Math.min(b, Math.max(a, v));

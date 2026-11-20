@@ -1,4 +1,4 @@
-# SHIVAYA JEWELLERY
+# CALLA
 
 > Fine jewellery that becomes you · The Flora Collection 2026
 
@@ -66,4 +66,4 @@ http://127.0.0.1:5533
 
 ## 📜 License
 
-Created for SHIVAYA JEWELLERY. All rights reserved.
+Created for CALLA Fine Jewellery. All rights reserved.

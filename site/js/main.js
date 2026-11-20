@@ -22,13 +22,13 @@
   const METALS = [["Yellow gold", "#d9b56a"], ["White gold", "#dcdcdc"], ["Rose gold", "#dfa992"]];
   const store = { get(k, d) {
     try {
-      return JSON.parse(localStorage.getItem("shivaya:" + k)) ?? d;
+      return JSON.parse(localStorage.getItem("calla:" + k)) ?? d;
     } catch {
       return d;
     }
   }, set(k, v) {
     try {
-      localStorage.setItem("shivaya:" + k, JSON.stringify(v));
+      localStorage.setItem("calla:" + k, JSON.stringify(v));
     } catch {
     }
   } };
@@ -402,7 +402,7 @@
     }, { passive: true });
     document.addEventListener("pointerleave", () => cur.classList.remove("on"));
   }
-  window.SHIVAYA = { lenis, toast, addToBag, scrollToEl, METALS, inr };
+  window.CALLA = { lenis, toast, addToBag, scrollToEl, METALS, inr };
   counts();
   renderBag();
 })();
